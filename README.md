@@ -16,32 +16,21 @@ Our comprehensive analysis has identified **11,882 addresses** with suspicious p
 
 ## Examples of Our Work
 
-Below are visual examples demonstrating the types of patterns we identify:
+### Cluster Analysis Table
 
-### 1. Network Graph Analysis
-
-The following graph illustrates a typical Sybil cluster structure - a central hub address connected to multiple peripheral addresses, indicating coordinated activity:
-
-![Network Graph](graph.png)
-
-This star-shaped network pattern shows a central address (`3ce9...b4c8`) directly connected to 14 peripheral addresses, with bidirectional transactions between them. Such patterns are strong indicators of coordinated Sybil behavior.
-
-### 2. Cluster Analysis Table
-
-The cluster analysis table below shows detailed metrics for a detected cluster, including:
-
-- Transaction timestamps across different chains
-- Active days and transaction volumes
-- Cross-chain activity patterns
-- Volume distributions
+Пример кластера из [Google таблицы](https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?usp=sharing&ouid=115398103641496771725&rtpof=true&sd=true):
 
 ![Cluster Analysis Table](cluster_table.png)
 
-The color-coded heatmap visualizes the similarity of behavioral patterns within the cluster. Addresses with similar colors exhibit nearly identical transaction patterns, timestamps, and volume distributions - a clear sign of coordinated activity.
+### Network Graph
 
-### 3. Detection Summary
+Пример графа кластера, по которому мы анализируем логику связей:
 
-The following table summarizes our complete detection results across all analysis stages:
+![Network Graph](graph.png)
+
+### Detection Summary
+
+Пример результата резолва:
 
 ## Sybil Detection Summary
 
@@ -53,17 +42,3 @@ The following table summarizes our complete detection results across all analysi
 | CLUSTER_ANALYSIS     | 6,350              | 5,769,054,327          | 12.70%             | 0.10%           |
 | ARMA_CLUSTER_ANALYSIS| 3,911              | 128,388,782            | 7.82%              | 0.002%          |
 |  **TOTAL**              | **11,882**         | **117,449,159,885**    | **23.764%**        | **1.957%**      |
-
-## Key Insights
-
-- **Graph Analysis** identified 1,508 addresses (3.01% of total) with interconnected suspicious patterns
-- **Cluster Analysis** revealed 6,350 addresses (12.70% of total) with similar behavioral characteristics
-- **ARMA Cluster Analysis** detected 3,911 addresses (7.82% of total) with advanced pattern anomalies
-- Combined detection methods provide comprehensive coverage of different Sybil attack vectors
-
-## Notes
-
-- All visualizations and data presented here are examples from our actual detection work
-- Results are based on comprehensive analysis of on-chain transaction data
-- Detection methods are continuously refined to identify new patterns and attack vectors
-- For inquiries or collaboration opportunities, please contact us through the repository
