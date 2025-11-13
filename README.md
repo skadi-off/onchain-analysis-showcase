@@ -6,33 +6,24 @@ This repository showcases examples of our Sybil detection work and analysis resu
 
 Our analysis identifies suspicious patterns and clusters of addresses that exhibit Sybil behavior across multiple blockchain networks. The detection process involves several stages, each revealing different types of coordinated activity.
 
-## Detection Results
-
-Our comprehensive analysis has identified **11,882 addresses** with suspicious patterns, representing **23.764%** of analyzed addresses and **1.957%** of total points. These addresses were detected through multiple complementary approaches:
-
 - **Graph Analysis**: Identifies interconnected networks of addresses with suspicious transaction patterns
 - **Cluster Analysis**: Groups addresses with similar behavioral characteristics
 - **Pattern Recognition**: Detects coordinated activities and timing anomalies
 
-## Examples of Our Work
-
 ### Cluster Analysis Table
 
-Пример кластера из [Google таблицы](https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?usp=sharing&ouid=115398103641496771725&rtpof=true&sd=true):
+Example table for checking clusters with random wallets[Google таблицы](https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?usp=sharing&ouid=115398103641496771725&rtpof=true&sd=true):
 
 ![Cluster Analysis Table](cluster_table.png)
 
 ### Network Graph
 
-Пример графа кластера, по которому мы анализируем логику связей:
+Example of a graph used to analyze connection logic:
 
 ![Network Graph](graph.png)
 
-### Detection Summary
-
-Пример результата резолва:
-
-## Sybil Detection Summary
+### Sybil Detection Summary
+How our final results table looks in a completed repository:
 
 | Analysis Stage            |  Total Addresses |  Total Points        | % of All Addresses | % of All Points |
 |--------------------------|--------------------|------------------------|--------------------|-----------------|
