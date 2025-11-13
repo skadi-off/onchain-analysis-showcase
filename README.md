@@ -16,7 +16,7 @@ Example table for checking clusters with random wallets
 
 (https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?usp=sharing&ouid=115398103641496771725&rtpof=true&sd=true)
 
-(cluster_example.png)
+![Cluster Example](./cluster_example.png)
 
 ### Network Graph
 
