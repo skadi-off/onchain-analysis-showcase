@@ -1,4 +1,4 @@
-# **Description**
+### Description
 
 This repository provides a high-level overview of our clustering methodology used to identify groups of blockchain addresses that exhibit coordinated or structurally similar behavior. The workflow is intentionally abstracted and does not disclose internal logic, thresholds, or decision rules.
 
@@ -9,7 +9,7 @@ We aggregate and normalize multi-chain activity to produce a unified dataset sui
 
 ---
 
-**#Behavioral Profiling**  
+**Behavioral Profiling**  
 Each address is transformed into a generalized behavioral profile that captures high-level interaction patterns and activity structure. No specific metrics, features, or weighting logic are disclosed.
 
 ---
@@ -34,5 +34,5 @@ A human review stage refines cluster boundaries, verifies consistency, and filte
 
 ---
 
-**### Reporting**  
+**Reporting**  
 Validated clusters are exported into standardized result tables that present final groupings while keeping methodology details fully abstracted.
