@@ -38,9 +38,17 @@ For example:
 
 For each specific group of wallets, we use different combinations of these criteria.
 
-### Description
+## Network Graph
 
-How our clusters connections table looks in a repository:
+Example of a graph used to analyze connection logic:
+
+![Graph Example](./graph_example.jpg)
+
+## Sybil Detection Summary
+
+Example of final results table in a completed repository.
+
+### Clusters example
 
 |address                                   |comp_id|points    |hyperlink                                                                                   |
 |------------------------------------------|-------|----------|--------------------------------------------------------------------------------------------|
@@ -50,15 +58,7 @@ How our clusters connections table looks in a repository:
 |0x8d241f4a0d718a4a82102a293919a476549a789c|75     |87471     |[PNG](https://drive.google.com/file/d/18GJk5DTaL6fESqTYOr1Sso1N_NxgQ7HM/view?usp=drive_link)|
 |0x2715d17e27ba31c3546024163ff0e424886de9cf|75     |121601    |[PNG](https://drive.google.com/file/d/18GJk5DTaL6fESqTYOr1Sso1N_NxgQ7HM/view?usp=drive_link)|
 
-## Network Graph
-
-Example of a graph used to analyze connection logic:
-
-![Graph Example](./graph_example.jpg)
-
-## Sybil Detection Summary
-
-Example of final results table in a completed repository:
+### Summary table
 
 | Analysis Stage            |  Total Addresses |  Total Points        | % of All Addresses | % of All Points |
 |--------------------------|--------------------|------------------------|--------------------|-----------------|
