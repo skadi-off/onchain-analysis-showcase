@@ -16,8 +16,6 @@ Example table used for checking clusters with random wallets
 
 ![Cluster Example](./cluster_example.png)
 
-https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?usp=sharing&ouid=115398103641496771725&rtpof=true&sd=true
-
 ## Network Graph
 
 Example of a graph used to analyze the connection logic:
