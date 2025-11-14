@@ -1,26 +1,38 @@
-# Description
+# **Description**
 
-Our clustering workflow identifies groups of blockchain addresses that demonstrate coordinated or structurally similar behavior. The methodology is built around several abstract stages, without disclosing the underlying logic or criteria.
+This repository provides a high-level overview of our clustering methodology used to identify groups of blockchain addresses that exhibit coordinated or structurally similar behavior. The workflow is intentionally abstracted and does not disclose internal logic, thresholds, or decision rules.
 
-**- Data Preparation.**  
-We collect and normalize multi-chain activity data, forming a consistent dataset for analysis.
+---
 
-**- Behavioral Profiling.**  
-Each address is converted into a high-level behavioral profile that captures interaction patterns and activity structure. No specific metrics are exposed.
+**### Data Preparation**  
+We aggregate and normalize multi-chain activity to produce a unified dataset suitable for further analysis. All preprocessing steps ensure consistency across the workflow.
 
-**- Relationship Modeling.**  
-We build a generalized connection graph that reflects how addresses relate to each other across multiple dimensions. The way relationships are weighted is not disclosed.
+---
 
-**- Cluster Formation.**  
-Addresses are grouped into clusters using a layered approach that considers behavior, structure, and contextual signals — without revealing how decisions are made.
+**### Behavioral Profiling**  
+Each address is transformed into a generalized behavioral profile that captures high-level interaction patterns and activity structure. No specific metrics, features, or weighting logic are disclosed.
 
-**- Multi-Step Validation.**  
-Clusters are cross-validated through several abstract checks to ensure internal consistency and reduce noise. Validation logic remains proprietary.
+---
 
-**- Analyst Review.**  
-A final manual review refines cluster boundaries and ensures high precision.
+**### Relationship Modeling**  
+A connection model is constructed to represent relationships between addresses across multiple analytical dimensions. The method by which relationship strength is evaluated remains proprietary.
 
-**- Reporting.**  
-Validated clusters are exported into clean tables that show final groupings without exposing any internal methodology.
+---
 
+**### Cluster Formation**  
+Address groups are formed through a layered clustering process that incorporates behavioral, structural, and contextual signals. The underlying criteria and algorithms are deliberately not described.
 
+---
+
+**### Multi-Step Validation**  
+Preliminary clusters undergo several internal validation stages to ensure coherence and minimize noise. Validation mechanisms and heuristics remain private.
+
+---
+
+**### Analyst Review**  
+A human review stage refines cluster boundaries, verifies consistency, and filters borderline cases prior to finalization.
+
+---
+
+**### Reporting**  
+Validated clusters are exported into standardized result tables that present final groupings while keeping methodology details fully abstracted.
