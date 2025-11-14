@@ -21,21 +21,20 @@ https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?us
 Based on the specifics of protocol activity, we apply different sets of criteria for cluster formation.
 
 For example:
-
-⦁	Max volume per day (max_volume_per_day)
-⦁	Max amount of single tx (min_single_tx_amount)
-⦁	Date of max volume per day (day_of_max_volume)
-⦁	First transaction for the token (first_tx)
-⦁	Total amount of txs (tx_cnt)
-⦁	First interaction with smart-contract (fist_tx_date)
-⦁	Last interaction with smart-contract (last_tx_date)
-⦁	Total volume of bridged funds (total_volume)
-⦁	Amount of source chains (source_chain_count)
-⦁	Amount of destination chains (destination_chain_count)
-⦁	Amount of interactions with smart-contracts (contracts_interacted_count)
-⦁	First transaction in TOP EVM Blockchains (top_evm_first_tx)
-⦁	Interaction with centralized exchanges (CEX)
-⦁	Common smart-contracts of the protocols (well-known protocols shows first)
+- Max volume per day (max_volume_per_day)
+- Max amount of single tx (min_single_tx_amount)
+- Date of max volume per day (day_of_max_volume)
+- First transaction for the token (first_tx)
+- Total amount of txs (tx_cnt)
+- First interaction with smart-contract (fist_tx_date)
+- Last interaction with smart-contract (last_tx_date)
+- Total volume of bridged funds (total_volume)
+- Amount of source chains (source_chain_count)
+- Amount of destination chains (destination_chain_count)
+- Amount of interactions with smart-contracts (contracts_interacted_count)
+- First transaction in TOP EVM Blockchains (top_evm_first_tx)
+- Interaction with centralized exchanges (CEX)
+- Common smart-contracts of the protocols (well-known protocols shown first)
 
 For each specific group of wallets, we use different combinations of these criteria.
 
