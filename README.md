@@ -10,21 +10,41 @@ Our analysis identifies suspicious patterns and clusters of addresses that exhib
 - **Cluster Analysis**: Groups addresses with similar behavioral characteristics
 - **Pattern Recognition**: Detects coordinated activities and timing anomalies
 
-### Cluster Analysis Table
+## Cluster Analysis Table
 
 Example table for checking clusters with random wallets
 
 ![Cluster Example](./cluster_example.png)
 
 https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?usp=sharing&ouid=115398103641496771725&rtpof=true&sd=true
+### Description
+Based on the specifics of protocol activity, we apply different sets of criteria for cluster formation.
 
-### Network Graph
+For example:
+⦁	Max volume per day (max_volume_per_day)
+⦁	Max amount of single tx (min_single_tx_amount)
+⦁	Date of max volume per day (day_of_max_volume)
+⦁	First transaction for the token (first_tx)
+⦁	Total amount of txs (tx_cnt)
+⦁	First interaction with smart-contract (fist_tx_date)
+⦁	Last interaction with smart-contract (last_tx_date)
+⦁	Total volume of bridged funds (total_volume)
+⦁	Amount of source chains (source_chain_count)
+⦁	Amount of destination chains (destination_chain_count)
+⦁	Amount of interactions with smart-contracts (contracts_interacted_count)
+⦁	First transaction in TOP EVM Blockchains (top_evm_first_tx)
+⦁	Interaction with centralized exchanges (CEX)
+⦁	Common smart-contracts of the protocols (well-known protocols shows first)
+
+For each specific group of wallets, we use different combinations of these criteria.
+
+## Network Graph
 
 Example of a graph used to analyze connection logic:
 
 ![Graph Example](./graph_example.jpg)
 
-### Sybil Detection Summary
+## Sybil Detection Summary
 How our final results table looks in a completed repository:
 
 | Analysis Stage            |  Total Addresses |  Total Points        | % of All Addresses | % of All Points |
