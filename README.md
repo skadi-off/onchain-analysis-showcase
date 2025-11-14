@@ -21,6 +21,7 @@ https://docs.google.com/spreadsheets/d/1x9SZQ8ZEW0U2a6mAHSR4E5aU6JLduX7t/edit?us
 Based on the specifics of protocol activity, we apply different sets of criteria for cluster formation.
 
 For example:
+
 ⦁	Max volume per day (max_volume_per_day)
 ⦁	Max amount of single tx (min_single_tx_amount)
 ⦁	Date of max volume per day (day_of_max_volume)
