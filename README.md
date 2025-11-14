@@ -1,6 +1,6 @@
 # Sybil Detection Showcase
 
-This repository showcases examples of our Sybil detection work and analysis results. Here you can see the outcomes of our detection methods applied to blockchain data.
+This repository showcases examples of our Sybil detection work and analysis results. Here you can explore the outcomes of our detection methods applied to blockchain data.
 
 ## Overview
 
@@ -12,7 +12,7 @@ Our analysis identifies suspicious patterns and clusters of addresses that exhib
 
 ## Cluster Analysis Table
 
-Example table for checking clusters with random wallets
+Example table used for checking clusters with random wallets
 
 ![Cluster Example](./cluster_example.png)
 
@@ -22,11 +22,11 @@ Based on the specifics of protocol activity, we apply different sets of criteria
 
 For example:
 - Max volume per day (max_volume_per_day)
-- Max amount of single tx (min_single_tx_amount)
+- Max amount of a single tx (min_single_tx_amount)
 - Date of max volume per day (day_of_max_volume)
 - First transaction for the token (first_tx)
-- Total amount of txs (tx_cnt)
-- First interaction with smart-contract (fist_tx_date)
+- Total number of txs (tx_cnt)
+- First interaction with smart-contract (first_tx_date)
 - Last interaction with smart-contract (last_tx_date)
 - Total volume of bridged funds (total_volume)
 - Amount of source chains (source_chain_count)
@@ -36,17 +36,17 @@ For example:
 - Interaction with centralized exchanges (CEX)
 - Common smart-contracts of the protocols (well-known protocols shown first)
 
-For each specific group of wallets, we use different combinations of these criteria.
+For each wallet group, we use different combinations of these criteria.
 
 ## Network Graph
 
-Example of a graph used to analyze connection logic:
+Example of a graph used to analyze the connection logic:
 
 ![Graph Example](./graph_example.jpg)
 
 ## Sybil Detection Summary
 
-Example of final results table in a completed repository.
+Example of final result tables from a completed repository.
 
 ### Clusters example
 
