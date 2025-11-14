@@ -12,7 +12,7 @@ Our analysis identifies suspicious patterns and clusters of addresses that exhib
 
 ## Cluster Analysis Table
 
-Example table used for checking clusters with random wallets
+We will put all cluster tables that look like the one in the picture into a single folder.
 
 ![Cluster Example](./cluster_example.png)
 
